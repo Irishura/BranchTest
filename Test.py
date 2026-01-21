@@ -2,7 +2,7 @@
 # Simple login system
 
 #login credentials
-USERNAME = "hadassa"
+USERNAME = "samia"
 PASSWORD = "1234"
 
 #inputs
