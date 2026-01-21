@@ -2,8 +2,8 @@
 # Simple login system
 
 #login credentials
-USERNAME = "hadassa"
-PASSWORD = "4321"
+USERNAME = "samia"
+PASSWORD = "1234"
 
 #inputs
 username = input("username : ")
