@@ -3,7 +3,7 @@
 
 #login credentials
 USERNAME = "hadassa"
-PASSWORD = "1234"
+PASSWORD = "4321"
 
 #inputs
 username = input("username : ")
