@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login Page</title>
+</head>
+<body>
+
+    <h2>Login</h2>
+
+    <form>
+        <label>Username:</label><br>
+        <input type="text" id="username" required><br><br>
+
+        <label>Password:</label><br>
+        <input type="password" id="password" required><br><br>
+
+        <button type="button" onclick="login()">Login</button>
+
+        <p id="message"></p>
+    </form>
+
+    <script>
+        function login() {
+            // same credentials as python example
+            const USERNAME = "admin";
+            const PASSWORD = "1234";
+
+            let username = document.getElementById("username").value;
+            let password = document.getElementById("password").value;
+
+            if (username === USERNAME && password === PASSWORD) {
+                document.getElementById("message").innerHTML = "Login successful ✅";
+            } else {
+                document.getElementById("message").innerHTML = "Login failed ❌";
+            }
+        }
+    </script>
+
+</body>
+</html>
